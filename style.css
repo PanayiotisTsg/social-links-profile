@@ -13,6 +13,8 @@ body {
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container {
@@ -22,7 +24,6 @@ body {
     align-items: center;
     width: 385px;
     height: 611px;
-    margin: auto;
     border-radius: 12px;
     padding: 40px;
 }
@@ -62,6 +63,7 @@ button {
     height: 45px;
     margin-top: 16px;
     border-radius: 8px;
+    transition: color 0.1s linear, background-color 0.1s linear;
 }
 
 button:hover {
@@ -71,5 +73,17 @@ button:hover {
 }
 
 .attribution {
-    display: none;
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+    transition: font-weight 0.05s linear;
+}
+
+a:hover {
+    font-weight: 600;
 }
