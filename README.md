@@ -3,7 +3,7 @@
 <h1 align='center'>Social Links Profile</h1>
 
 <h3 align='center'>
-    <a href=''>Solution</a>
+    <a href='https://www.frontendmentor.io/solutions/social-links-profile-Ad6RTN8xPh'>Solution</a>
     <span>|</span>
     <a href='https://panayiotistsg.github.io/social-links-profile/'>Live</a>
     <span>|</span>
